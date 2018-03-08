@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		A4406870205113AD007566E1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A440686F205113AD007566E1 /* AppDelegate.m */; };
-		A4406873205113AD007566E1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4406872205113AD007566E1 /* ViewController.m */; };
-		A4406876205113AD007566E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4406874205113AD007566E1 /* Main.storyboard */; };
 		A4406878205113AD007566E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4406877205113AD007566E1 /* Assets.xcassets */; };
-		A440687B205113AD007566E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4406879205113AD007566E1 /* LaunchScreen.storyboard */; };
 		A440687E205113AD007566E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A440687D205113AD007566E1 /* main.m */; };
 		A4406888205113AD007566E1 /* MVC__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4406887205113AD007566E1 /* MVC__Tests.m */; };
 		A4406893205113AD007566E1 /* MVC__UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4406892205113AD007566E1 /* MVC__UITests.m */; };
+		A44068A2205116DC007566E1 /* MVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A44068A1205116DC007566E1 /* MVCViewController.m */; };
+		A44068A920511CC8007566E1 /* FirstModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A44068A820511CC8007566E1 /* FirstModel.m */; };
+		A44068AC20511CE0007566E1 /* FirstView.m in Sources */ = {isa = PBXBuildFile; fileRef = A44068AB20511CE0007566E1 /* FirstView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,11 +38,7 @@
 		A440686B205113AD007566E1 /* MVC架构.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVC架构.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A440686E205113AD007566E1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A440686F205113AD007566E1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A4406871205113AD007566E1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A4406872205113AD007566E1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		A4406875205113AD007566E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A4406877205113AD007566E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A440687A205113AD007566E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A440687C205113AD007566E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A440687D205113AD007566E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A4406883205113AD007566E1 /* MVC架构Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MVC架构Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +47,12 @@
 		A440688E205113AD007566E1 /* MVC架构UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MVC架构UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4406892205113AD007566E1 /* MVC__UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVC__UITests.m; sourceTree = "<group>"; };
 		A4406894205113AD007566E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A44068A0205116DC007566E1 /* MVCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVCViewController.h; sourceTree = "<group>"; };
+		A44068A1205116DC007566E1 /* MVCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVCViewController.m; sourceTree = "<group>"; };
+		A44068A720511CC8007566E1 /* FirstModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstModel.h; sourceTree = "<group>"; };
+		A44068A820511CC8007566E1 /* FirstModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstModel.m; sourceTree = "<group>"; };
+		A44068AA20511CE0007566E1 /* FirstView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstView.h; sourceTree = "<group>"; };
+		A44068AB20511CE0007566E1 /* FirstView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,11 +105,8 @@
 			children = (
 				A440686E205113AD007566E1 /* AppDelegate.h */,
 				A440686F205113AD007566E1 /* AppDelegate.m */,
-				A4406871205113AD007566E1 /* ViewController.h */,
-				A4406872205113AD007566E1 /* ViewController.m */,
-				A4406874205113AD007566E1 /* Main.storyboard */,
+				A44068A320511CA2007566E1 /* FirstViewController */,
 				A4406877205113AD007566E1 /* Assets.xcassets */,
-				A4406879205113AD007566E1 /* LaunchScreen.storyboard */,
 				A440687C205113AD007566E1 /* Info.plist */,
 				A440687D205113AD007566E1 /* main.m */,
 			);
@@ -130,6 +129,43 @@
 				A4406894205113AD007566E1 /* Info.plist */,
 			);
 			path = "MVC架构UITests";
+			sourceTree = "<group>";
+		};
+		A44068A320511CA2007566E1 /* FirstViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A44068A420511CA2007566E1 /* C */,
+				A44068A520511CA2007566E1 /* M */,
+				A44068A620511CA2007566E1 /* V */,
+			);
+			path = FirstViewController;
+			sourceTree = "<group>";
+		};
+		A44068A420511CA2007566E1 /* C */ = {
+			isa = PBXGroup;
+			children = (
+				A44068A0205116DC007566E1 /* MVCViewController.h */,
+				A44068A1205116DC007566E1 /* MVCViewController.m */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+		A44068A520511CA2007566E1 /* M */ = {
+			isa = PBXGroup;
+			children = (
+				A44068A720511CC8007566E1 /* FirstModel.h */,
+				A44068A820511CC8007566E1 /* FirstModel.m */,
+			);
+			path = M;
+			sourceTree = "<group>";
+		};
+		A44068A620511CA2007566E1 /* V */ = {
+			isa = PBXGroup;
+			children = (
+				A44068AA20511CE0007566E1 /* FirstView.h */,
+				A44068AB20511CE0007566E1 /* FirstView.m */,
+			);
+			path = V;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,9 +274,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A440687B205113AD007566E1 /* LaunchScreen.storyboard in Resources */,
 				A4406878205113AD007566E1 /* Assets.xcassets in Resources */,
-				A4406876205113AD007566E1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +299,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4406873205113AD007566E1 /* ViewController.m in Sources */,
+				A44068A920511CC8007566E1 /* FirstModel.m in Sources */,
+				A44068A2205116DC007566E1 /* MVCViewController.m in Sources */,
+				A44068AC20511CE0007566E1 /* FirstView.m in Sources */,
 				A440687E205113AD007566E1 /* main.m in Sources */,
 				A4406870205113AD007566E1 /* AppDelegate.m in Sources */,
 			);
@@ -301,25 +337,6 @@
 			targetProxy = A440688F205113AD007566E1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		A4406874205113AD007566E1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A4406875205113AD007566E1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		A4406879205113AD007566E1 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A440687A205113AD007566E1 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		A4406895205113AD007566E1 /* Debug */ = {
@@ -431,6 +448,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M5QHQ4M8Q3;
 				INFOPLIST_FILE = "MVC架构/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.delete.MVC--";
@@ -444,6 +462,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M5QHQ4M8Q3;
 				INFOPLIST_FILE = "MVC架构/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.delete.MVC--";
